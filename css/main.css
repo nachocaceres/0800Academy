@@ -122,6 +122,7 @@ body {
 .crd {
   color: #ffffff;
   background-color: #84425b;
+  min-height: 25rem;
   padding-left: 12px; }
   .crd:hover {
     box-shadow: 5px 5px 20px #84425b;

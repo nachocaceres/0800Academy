@@ -110,7 +110,7 @@ $font: 'Chewy', cursive;
 .crd{
   color: $colorsecundario;
   background-color: $colorprimario;
-  
+  min-height: 25rem;
   padding-left: 12px;
   &:hover{
     box-shadow: 5px 5px 20px $colorprimario;
