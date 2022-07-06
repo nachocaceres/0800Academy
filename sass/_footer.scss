@@ -1,0 +1,30 @@
+$colorprimario: #84425b;
+$colorsecundario: #ffffff;
+
+
+footer {
+    margin-top: auto;
+    * {
+    text-align: center;
+        div ul li a{
+            border-radius: 5px;
+            margin: 30px;
+                &:hover {
+                background-color: #633345;
+                border-radius: 5px;
+                transition: all 0.1s linear;
+            }
+            i{
+                padding: 8px;
+            }
+        }
+    }
+}
+
+.imgf{
+    height: 300px;
+    width: 300px;
+    &:hover{
+        transform: rotate(-10deg);
+    }
+}

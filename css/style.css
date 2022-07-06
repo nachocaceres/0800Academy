@@ -1,0 +1,93 @@
+body {
+  background-color: #eda9a9;
+  min-height: 100vh;
+}
+
+nav {
+  background-color: #99b599;
+}
+
+.tamanio {
+  height: 50px;
+  width: 50px;
+}
+
+header {
+  border-bottom: #99b599 5px solid;
+  color: #000;
+}
+
+img {
+  width: 50px;
+}
+
+.navbar-brand {
+  padding-left: 0.7rem;
+}
+
+.mainHome {
+  border-radius: 4em;
+  padding-top: 40px;
+  background-color: #eda9a9;
+  min-height: calc(100vh - 80px - 255px);
+}
+
+.bg-yo {
+  background-color: #99b599;
+}
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  padding: 0;
+}
+
+.imgcarrousel {
+  height: 500px;
+}
+
+footer {
+  margin-top: auto;
+}
+
+footer * {
+  text-align: center;
+
+}
+
+footer div ul li a{
+  border-radius: 5px;
+}
+
+footer div ul li a:hover {
+  background-color: #7f967f;
+  transition: all 0.7s linear;
+}
+
+.activo{
+    color: rgb(238, 238, 238);
+}
+.activo:hover{
+    color: rgb(255, 255, 255);
+}
+
+header nav div ul li a:hover{
+    background-color: #7f967f;
+    border-radius: 5px;
+    transition: all 0.7s linear;
+}
+
+.contacth1{
+    text-align: center;
+}
+
+.card{
+  min-height: 400px;
+}
+
+.cardBecas{
+  min-height: 200px;
+}

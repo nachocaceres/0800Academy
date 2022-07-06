@@ -1,0 +1,46 @@
+$colorprimario: #84425b;
+$colorsecundario: #ffffff;
+
+header {
+    border-bottom: $colorprimario 5px solid;
+    color: #000;
+    nav {
+      padding: 20px;
+      background-color: $colorprimario;
+      text-align: center;
+      div ul li a:hover{
+        background-color: #633345;
+        border-radius: 1px;
+        transition: all 0.1s linear;
+        font-size: 1rem;
+        border-bottom: 3px solid $colorsecundario;
+        transition: border-width 0.2s linear;
+      }
+      div ul li a:focus{
+        font-size: 1.3rem;
+      }
+      img {
+        height: 50px;
+        width: 50px;
+          &:hover{
+            transform: rotate(-10deg);
+          }
+      }
+    }
+  }
+    
+    .navbar-brand {
+      padding-left: 0.7rem;
+    }
+
+    .activo{
+        color: rgb(212, 212, 212);
+        border-bottom: 2px solid $colorsecundario;
+        &:hover{
+              color: rgb(255, 255, 255);
+          }
+    }
+
+.p-yo{
+  padding-right: 1rem;
+}

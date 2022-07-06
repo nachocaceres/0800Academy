@@ -1,0 +1,70 @@
+$colorprimario: #84425b;
+$colorsecundario: #ffffff;
+
+.boton{
+    background-color: $colorprimario;
+    text-align: center;
+    font-size: 1rem;
+    color: #fff;
+    border-radius: 4px;
+    border: 2px solid $colorsecundario;
+        &:hover{
+            background-color: #633345;
+            border-radius: 5px;
+            transition: all 0.1s linear;
+            font-size: 1rem;
+        }
+        &:focus{
+            box-shadow: 20px 20px 50px $colorprimario;
+            border: none;
+            
+        }
+}
+
+.botonBecas{
+    @extend .boton;
+    color: #ffffff;
+    &:hover{
+        color: $colorsecundario;
+        box-shadow: 2px 2px 20px 5px $colorprimario;
+    }
+
+}
+
+.btn-outline-success {
+    --bs-btn-color: $colorprimario;
+    --bs-btn-border-color: $colorprimario;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: $colorprimario;
+    --bs-btn-hover-border-color: $colorprimario;
+    --bs-btn-focus-shadow-rgb: 25,135,84;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: $colorprimario;
+    --bs-btn-active-border-color: $colorprimario;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: $colorprimario;
+    --bs-btn-disabled-bg: transparent;
+    --bs-gradient: none;
+}
+
+.btn{
+    transition: none;
+}
+
+.btn-secondary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: $colorprimario;
+    --bs-btn-border-color: $colorprimario;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: $colorprimario;
+    --bs-btn-hover-border-color: $colorprimario;
+    --bs-btn-focus-shadow-rgb: 130,138,145;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: $colorprimario;
+    --bs-btn-active-border-color: $colorprimario;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: $colorprimario;
+    --bs-btn-disabled-border-color: $colorprimario;
+}
+
